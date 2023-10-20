@@ -35,7 +35,7 @@ def send_update():
     temp_in_fahrenheit = (temp_in_celsius * 9/5) + 32
 
     weather_info = (
-        f"Good moring Logan!\n"
+        f"Good morning!\n"
         f"Current weather this morning:\n"
         f"Temperature: {temp_in_fahrenheit:.2f}F\n"
         f"Humidity: {humidity}%\n"
